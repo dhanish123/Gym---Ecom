@@ -7,20 +7,10 @@ const Services = () => {
   const [datas, setDatas] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
 
-  // const getData = async () => {
-  //   const resp = await fetch("http://localhost:4030/data");
-  //   const json = await resp.json();
-  //   setDatas(json);
-  // };
   const getData = async () => {
-    try {
-      const apiUrl = process.env.REACT_APP_API_URL;
-      const resp = await fetch(apiUrl);
-      const json = await resp.json();
-      setDatas(json);
-    } catch (error) {
-      console.error("Failed to load data:", error);
-    }
+    const resp = await fetch("http://localhost:4030/data");
+    const json = await resp.json();
+    setDatas(json);
   };
   useEffect(() => {
     getData();
