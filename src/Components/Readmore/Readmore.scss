@@ -1,0 +1,37 @@
+.readmore {
+  position: absolute;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 9999;
+  overflow-y: auto;
+  height: 100%;
+
+  // -ms-overflow-style: none;  /* IE and Edge */
+  // scrollbar-width: none;  /* Firefox */
+  &::-webkit-scrollbar {
+    display: none;
+    /* Hide scrollbar for Chrome, Safari and Opera */
+  }
+
+  h1 {
+    text-align: center;
+    padding: 16px;
+    color: #fd1313;
+    font-weight: 600;
+  }
+  p {
+    color: #ffebeb;
+    font-size: large;
+    font-weight: 600;
+  }
+}
+@media (max-width: 768px) {
+  .readmore {
+    width: 68%;
+    border-radius: 65px;
+    height: 86%;
+  }
+}

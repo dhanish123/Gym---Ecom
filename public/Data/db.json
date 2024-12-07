@@ -1,0 +1,117 @@
+{
+  "data": [
+    {
+      "title": " DUMBBELL",
+      "description": "The dumbbell, a type of free weight, is a piece of equipment used in weight training. ",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5ko1YMArs-XUGu7HPwhx_KYH8TL9XIv2RDg&usqp=CAU",
+      "link": "https://en.wikipedia.org/wiki/Taj_Mahal",
+      "id": 1,
+      "sales": [
+        { "month": 1, "value": 60 },
+        { "month": 2, "value": 50 },
+        { "month": 3, "value": 75 },
+        { "month": 4, "value": 25 },
+        { "month": 5, "value": 10 },
+        { "month": 6, "value": 65 },
+        { "month": 7, "value": 50 },
+        { "month": 8, "value": 45 },
+        { "month": 9, "value": 60 },
+        { "month": 10, "value": 65 },
+        { "month": 11, "value": 70 },
+        { "month": 12, "value": 75 }
+      ]
+    },
+    {
+      "title": " LINEAR LEG PRESS",
+      "description": "Leg presses are effective at building leg strength, but they can be risky if you try to move too much weight.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQckNFo4K_wL3tfmmyqOnjUGM-tFrjdlOy5A&usqp=CAU",
+      "link": "https://en.wikipedia.org/wiki/Taj_Mahal",
+      "id": 2,
+      "sales": [
+        { "month": 1, "value": 20 },
+        { "month": 2, "value": 30 },
+        { "month": 3, "value": 25 },
+        { "month": 4, "value": 35 },
+        { "month": 5, "value": 40 },
+        { "month": 6, "value": 45 },
+        { "month": 7, "value": 50 },
+        { "month": 8, "value": 55 },
+        { "month": 9, "value": 60 },
+        { "month": 10, "value": 65 },
+        { "month": 11, "value": 70 },
+        { "month": 12, "value": 75 }
+      ]
+    },
+    {
+      "title": "BICEP CURL BENCH",
+      "description": "On this bicep curl bench, you sit on a seat with your upper arms rested on a slanted surface .",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkaUpxTjNn4ALADS-vRHmL46kKzkp84GYjqN7-cSzxkil8q0yUfiPPQKAgtxP77HdRml4&usqp=CAU",
+      "link": "https://en.wikipedia.org/wiki/Taj_Mahal",
+      "id": 3,
+      "sales": [
+        { "month": 1, "value": 20 },
+        { "month": 2, "value": 30 },
+        { "month": 3, "value": 25 },
+        { "month": 4, "value": 35 },
+        { "month": 5, "value": 40 },
+        { "month": 6, "value": 45 },
+        { "month": 7, "value": 50 },
+        { "month": 8, "value": 55 },
+        { "month": 9, "value": 60 },
+        { "month": 10, "value": 65 },
+        { "month": 11, "value": 70 },
+        { "month": 12, "value": 75 }
+      ]
+    },
+    {
+      "title": "BARBELL",
+      "description": "A barbell is a piece of exercise equipment used in weight training, bodybuilding.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9_eAS_eWI5Hzw5MW-tM6aaYKXDPcVzIJclw&usqp=CAU",
+      "link": "https://en.wikipedia.org/wiki/Taj_Mahal",
+      "id": 4,
+      "sales": [
+        { "month": 1, "value": 60 },
+        { "month": 2, "value": 50 },
+        { "month": 3, "value": 75 },
+        { "month": 4, "value": 25 },
+        { "month": 5, "value": 10 },
+        { "month": 6, "value": 65 },
+        { "month": 7, "value": 50 },
+        { "month": 8, "value": 45 },
+        { "month": 9, "value": 60 },
+        { "month": 10, "value": 65 },
+        { "month": 11, "value": 70 },
+        { "month": 12, "value": 75 }
+      ]
+    },
+    {
+      "title": "KETTLEBELL",
+      "description": "In weight training, a kettlebell is a cast-iron or cast-steel ball with a handle attached to the top",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyMjEhCNJHGYj75oWY4-z6xAJ5WmZ3IhF-YA&usqp=CAU",
+      "link": "https://en.wikipedia.org/wiki/Taj_Mahal",
+      "id": 5
+    },
+    {
+      "title": "STABILITY BALL",
+      "description": "An exercise ball is a ball constructed of soft elastic, typically in 5 diameters of 10-centimeter increments.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqHEwffKfST0pSQx1cKBJL__HfInTK7kyq1g&usqp=CAU",
+      "link": "https://en.wikipedia.org/wiki/Taj_Mahal",
+      "id": 6
+    },
+    {
+      "title": "TREADMILLS",
+      "description": "Treadmills provide outstanding cardiovascular exercises, which can significantly .",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMS5PPA_4N7hHK78ySNAaU5Vz1FP05mIoUOg&usqp=CAU",
+      "link": "https://en.wikipedia.org/wiki/Taj_Mahal",
+      "id": 7
+    },
+    {
+      "title": "CHEST PRESS MACHINE",
+      "description": "This machine involves you sitting upright and you using your arms to push a load .",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiwPdZ8c6ZE3LhaPMISamdR5I1Apt2seCLEw&usqp=CAU",
+      "link": "https://en.wikipedia.org/wiki/Taj_Mahal",
+      "id": 8
+    }
+   
+  ]
+}

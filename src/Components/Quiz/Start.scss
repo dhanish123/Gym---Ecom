@@ -1,0 +1,22 @@
+.start{
+    color: white;
+    text-align: center;
+    // background-color: #212529;
+    &-outer{
+        // height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &-head{
+        font-weight: bold;
+    }
+    &-btn{
+        padding: 0.75rem 1rem;
+        background-color: #f8f9fa;
+        color: #212529;
+        font-weight: bold;
+        border-radius: 28px;
+        margin-bottom: 10px;
+    }
+}

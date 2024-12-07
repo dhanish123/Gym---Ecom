@@ -1,0 +1,66 @@
+table,
+th,
+td,
+tr,
+td {
+  border: 2px solid #8e7878;
+  text-align: center;
+  padding: 6px;
+}
+th{
+    color: white;
+}
+table{
+    margin-bottom: 28px;
+}
+// .gymtable {
+//   background: #e7e2eb;
+// }
+.www:nth-child(odd) {
+  background-color:#302b2bd6;
+}
+.qwe {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.tablehead {
+    padding: 16px;
+  color: #2196f3;
+  font-weight: 800;
+  text-align: center;
+}
+p {
+  margin-bottom: 0 !important;
+  padding: 4px;
+}
+.time {
+  font-weight: 600;
+}
+.date {
+  font-size: 18px;
+  font-family: ui-sans-serif;
+}
+.tableouter{
+  &__tableinside{
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width:768px){
+  .qwe {
+    display: flex;
+    // overflow: auto;
+    justify-content: unset;
+    flex-direction: column;
+  }
+  .tableouter{
+    overflow: hidden;
+    &__tableinside{
+      overflow: scroll;
+      justify-content: unset;
+      padding: 0 10px;
+    }
+  }
+}

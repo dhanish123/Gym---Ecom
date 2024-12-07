@@ -1,0 +1,39 @@
+.slide1 {
+  max-width: 1200px;
+  margin: 100px 0;
+}
+.fmain {
+  background-image: url(../../images/t3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fhead {
+  text-align: center;
+  color: white;
+  font-size: -webkit-xxx-large;
+  font-family: none;
+  padding-top: 75px;
+}
+.fdown {
+  display: flex;
+  justify-content: space-evenly;
+}
+.swiper-pagination {
+  display: none;
+}
+@media (max-width: 768px) {
+  .slide1 {
+    max-width: 1200px;
+    margin: 20px 20px;
+  }
+  .ftop {
+    margin-top: -1px;
+  }
+  .fhead {
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-family: none;
+    padding-top: 20px;
+  }
+}

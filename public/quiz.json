@@ -1,0 +1,87 @@
+[
+  {
+    "id": "01",
+    "question": "Which exercise primarily targets the chest muscles?",
+    "options": [" Deadlift", "Bicep Curl", "Bench Press", "Leg Press"],
+    "answer": "Bench Press"
+  },
+  {
+    "id": "02",
+    "question": "What does BMI stand for??",
+    "options": [
+      "Basic Muscle Index",
+      "Body Mass Index",
+      "Balanced Metabolic Indicator",
+      "Body Maintenance Index"
+    ],
+    "answer": "+Body Mass Index"
+  },
+  {
+    "id": "03",
+    "question": "What is the primary purpose of stretching before a workout?",
+    "options": [
+      " Build Muscle",
+      "Increase Heart Rate",
+      "Improve Flexibility",
+      "Burn Calories"
+    ],
+    "answer": "Improve Flexibility"
+  },
+  {
+    "id": "04",
+    "question": "Which nutrient is commonly referred to as the body's building blocks?",
+    "options": ["Carbohydrates", "Protein", "Fat", "Vitamins"],
+    "answer": "Protein"
+  },
+  {
+    "id": "05",
+    "question": "What does DOMS stand for in the context of fitness?",
+    "options": [
+      "Daily Overall Muscle Strain",
+      "Delayed Onset Muscle Soreness",
+      "Dynamic Oxygen Movement System",
+      "Daily Oxygenation Maintenance System"
+    ],
+    "answer": "Delayed Onset Muscle Soreness"
+  },
+  {
+    "id": "06",
+    "question": "What is the recommended daily water intake for an average adult engaging in regular physical activity?",
+    "options": ["1 liter", "3 liter", "5 liter", "8 liter"],
+    "answer": "8 liter"
+  },
+  {
+    "id": "07",
+    "question": "Which of the following is a compound exercise?",
+    "options": [" Bicep Curl", " Leg Extension", "Squat", "Tricep Kickback"],
+    "answer": "Squat"
+  },
+  {
+    "id": "08",
+    "question": "What is the purpose of a cooldown after a workout?",
+    "options": [
+      " Increase Heart Rate",
+      "Burn Additional Calories",
+      "Prevent Dizziness",
+      "Promote Recovery and Flexibility"
+    ],
+    "answer": "Promote Recovery and Flexibility"
+  },
+  {
+    "id": "09",
+    "question": "How many days a week is it generally recommended to engage in aerobic exercise for overall health?",
+    "options": ["1-2 days", "3-4 days", "5-6 days", "Every day"],
+    "answer": "5-6 days"
+  },
+  {
+    "id": "10",
+    "question": "What is the term for the number of calories burned at rest to maintain basic physiological functions?",
+    "options": [
+      "Active Metabolic Rate",
+      " Basal Metabolic Rate",
+      "Exercise Metabolic Rate",
+      "Maximum Metabolic Rate"
+    ],
+    "answer": " Basal Metabolic Rate"
+  }
+]

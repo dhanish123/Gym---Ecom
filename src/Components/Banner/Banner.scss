@@ -1,0 +1,264 @@
+
+// .p1 {
+//   position: relative;
+// }
+// .p1txt {
+//   position: absolute;
+//   top: 48%;
+//   bottom: 0%;
+//   color: white;
+//  width: 100%;
+
+// }
+
+// h3 {
+//   font-size: 37px;
+//   text-align: center;
+//   letter-spacing: 2px;
+//   font-family: none;
+// }
+// .bh1 {
+//   letter-spacing: 2px;
+//   font-size: 102px;
+//   color: red;
+//   font-family: none;
+// }
+// .bh2 {
+//   letter-spacing: 2px;
+//   font-size: 102px;
+//   margin-left: 20px;
+//   font-family: none;
+// }
+// .bh1subhead{
+//   text-align: center;
+// }
+// .btn {
+//   margin-left: 38%;
+//   margin-top: 24px;
+//   font-weight: 700;
+// }
+// .btn:hover {
+//   background-color: white;
+//   color: red;
+// }
+// .bhmain {
+//   display: flex;
+//   justify-content:center;
+// }
+// .Bmain {
+//   position: relative;
+//   overflow: hidden;
+//   height: 806px;
+// }
+// .p1img{
+//   max-width: 100%;
+// }
+
+// @media (max-width: 768px) {
+//   .Bmain {
+//     height: unset;
+//     .btn3-outer{
+//       margin-top: 8px;
+//       .btn3{
+//         font-size: 18px;
+//         border-radius: 8px;
+//         padding: 0px 10px;
+//         margin-right: 8px;
+//       }
+//     }
+//   }
+//   .p1txt {
+
+//     position: absolute;
+//     top: 88px;
+//     bottom: 0;
+//     color: white;
+//     margin-left: 0;
+//   }
+//   h3 {
+//     font-size: 18px;
+//     font-weight: revert;
+//     text-align: center;
+//   }
+//   .bh1 {
+//     font-size: 18px;
+//     font-weight: revert;
+//   }
+//   .bh2 {
+//     font-size: 18px;
+//     font-weight: revert;
+//   }
+
+ 
+// }
+
+//backimage
+// .www{
+//   background-image: url('../../images/about2.jpg');
+//   background-size: cover;
+//   background-position: center;
+//   min-height: 100vh;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   color: '#ffffff', // Set text color
+// }
+
+
+//textback
+
+// .p1 {
+//   position: relative;
+// }
+// .p1txt {
+//   position: absolute;
+//   top: 48%;
+//   bottom: 0%;
+//   color: white;
+//  width: 100%;
+
+// }
+.swe{
+  background-image: url('../../images/about2.jpg');
+  background-size: cover;
+  background-position: top;
+  background-repeat:  no-repeat;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // color: '#ffffff', // Set text color
+}
+.bhmain{
+  display: flex;
+}
+.p1txt{
+  margin-top: 12%;
+}
+.bh1 {
+  letter-spacing: 2px;
+  color: red;
+  font-family: none;
+  font-size: 6em;
+}
+.bh2 {
+  letter-spacing: 2px;
+  font-family: none;
+  font-size: 6em;
+  color: wheat;
+
+}
+.fbh{
+font-size: 2em;
+color: white;
+font-family: cursive;
+}
+@media (max-width:768px) {
+  .fbh{
+   font-size: 24px;
+   font-weight: 600;
+  }
+  .bh1 {
+    letter-spacing: 2px;
+    color: red;
+    font-family: none;
+    font-size: 2em;
+    font-weight: 600;
+  }
+  .bh2 {
+    letter-spacing: 2px;
+    font-family: none;
+    font-size: 2em;
+    font-weight: 600;
+  
+  }
+  .swe{
+    min-height: 42vh;
+    .btn3{
+font-size: 18px;
+    }
+  }
+}
+
+
+// h3 {
+//   font-size: 37px;
+//   text-align: center;
+//   letter-spacing: 2px;
+//   font-family: none;
+// }
+// .bh1 {
+//   letter-spacing: 2px;
+//   font-size: 60px;
+//   color: red;
+//   font-family: none;
+// }
+// .bh2 {
+//   letter-spacing: 2px;
+//   font-size: 60px;
+//   margin-left: 20px;
+//   font-family: none;
+// }
+// .bh1subhead{
+//   text-align: center;
+// }
+// .btn {
+//   margin-left: 38%;
+//   margin-top: 24px;
+//   font-weight: 700;
+// }
+// .btn:hover {
+//   background-color: white;
+//   color: red;
+// }
+// .bhmain {
+//   display: flex;
+//   justify-content:center;
+// }
+// .Bmain {
+//   // position: relative;
+//   // overflow: hidden;
+//   // height: 806px;
+// }
+.p1img{
+  max-width: 100%;
+}
+
+// @media (max-width: 768px) {
+//   .Bmain {
+//     height: unset;
+//     .btn3-outer{
+//       margin-top: 8px;
+//       .btn3{
+//         font-size: 18px;
+//         border-radius: 8px;
+//         padding: 0px 10px;
+//         margin-right: 8px;
+//       }
+//     }
+//   }
+//   // .p1txt {
+
+//   //   position: absolute;
+//   //   top: 88px;
+//   //   bottom: 0;
+//   //   color: white;
+//   //   margin-left: 0;
+//   // }
+//   h3 {
+//     font-size: 18px;
+//     font-weight: revert;
+//     text-align: center;
+//   }
+//   .bh1 {
+//     font-size: 18px;
+//     font-weight: revert;
+//   }
+//   .bh2 {
+//     font-size: 18px;
+//     font-weight: revert;
+//   }
+
+ 
+// }
+

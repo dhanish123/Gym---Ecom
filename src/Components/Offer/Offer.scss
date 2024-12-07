@@ -1,0 +1,102 @@
+.Omain {
+  position: relative;
+}
+.o1txt {
+  position: absolute;
+  top: 38%;
+  margin-left: 20%;
+}
+
+.omain1 {
+  display: flex;
+  font-family: none;
+}
+.oh1 {
+  font-size: 102px;
+  color: white;
+  font-family: none;
+}
+.oh2 {
+  margin-left: 10px;
+  color: red;
+  font-size: 102px;
+  font-family: none;
+}
+.oh3 {
+  margin-left: 10px;
+  font-size: 102px;
+  color: white;
+  font-family: none;
+}
+.oh4 {
+  font-size: 102px;
+  color: white;
+  font-family: none;
+  text-align: center;
+}
+.ohp {
+  color: white;
+}
+.linkbtn {
+  text-decoration: none;
+  color: black;
+}
+.btn3-outer.offer .btn3 {
+
+  color: #e3b68a;
+}
+
+@media (max-width: 768px) {
+  .linkbtn {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    margin: 0px 6px;
+  }
+  .oh1 {
+    font-size: 22px;
+    color: white;
+    font-family: none;
+    font-weight: bolder;
+  }
+  .oh2 {
+    margin-left: 10px;
+    color: red;
+    font-size: 22px;
+    font-weight: bolder;
+  }
+  .oh3 {
+    margin-left: 10px;
+    font-size: 22px;
+    font-weight: bolder;
+    color: white;
+  }
+  .oh4 {
+    font-size: 22px;
+    font-weight: bolder;
+    color: white;
+    font-family: none;
+  }
+  .btn {
+    margin-left: 34px;
+    margin-top: 8px;
+    width: auto;
+    padding: 0;
+  }
+  .o1txt {
+    position: absolute;
+    top: 50px;
+  }
+  .Omain {
+    margin-top: -1px;
+  }
+  .btn3-outer {
+    margin-top: 12px;
+  }
+  .btn3-outer.offer .btn3 {
+    font-size: 16px;
+    padding: 0 10px;
+    color: #e3b68a;
+    font-weight: bold;
+  }
+}

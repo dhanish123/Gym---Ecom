@@ -1,0 +1,64 @@
+.cartbtn {
+  background-color: blue;
+  width: 70px !important;
+  display: flex;
+  flex-direction: row-reverse;
+}
+body {
+  background-color: white;
+}
+.d-flex {
+  .btn {
+    width: unset;
+  }
+}
+.saleschart-outer {
+  display: flex;
+  justify-content: center;
+  margin-top: 34px;
+}
+.saleschart {
+  width: 500px;
+}
+.py-5 {
+  padding-bottom: 0 !important;
+}
+.rating-head{
+  h1{
+    font-family: ui-sans-serif;
+    margin-bottom: 0 !important;
+  }
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .cartbtn {
+    padding: 4px;
+    width: auto !important;
+  }
+  .py-5 {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    .btn {
+      margin-left: 0;
+      margin-top: 0;
+      padding: 2px;
+    }
+    .d-flex {
+      justify-content: center;
+    }
+  }
+  .mb-5 {
+    margin-bottom: 1rem !important;
+  }
+  .saleschart {
+    width: 100%;
+  }
+  .saleschart-outer {
+    margin-top: 14px;
+    margin-left: -32px;
+  }
+  .my-5 {
+    margin-bottom: 0 !important;
+  }
+
+}

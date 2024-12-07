@@ -1,0 +1,19 @@
+// Rating.scss
+
+.rating-container {
+    display: inline-block;
+ 
+    span {
+      font-size: 50px;
+      cursor: pointer;
+  
+      &:hover {
+        color:gold;
+      }
+  
+      &.active {
+        color: gold;
+      }
+    }
+  }
+  

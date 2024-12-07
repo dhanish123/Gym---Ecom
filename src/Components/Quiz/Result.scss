@@ -1,0 +1,33 @@
+.result{
+    // background-color: #212529;
+    color: #fff;
+    &-row{
+        // height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .col-lg-6 {
+    width: unset;
+  }
+  .btn{
+    width: unset;
+  }
+  .p-5 {
+    padding: 1rem!important;
+}
+.mb-2{
+    padding: 0;
+} 
+}
+
+  
+//   @media (max-width: 768px) {
+//     .col-lg-6 {
+//       width: 100%;
+//     }
+//   }
+
+ 
+   
+ 
