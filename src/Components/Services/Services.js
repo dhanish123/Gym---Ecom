@@ -7,13 +7,9 @@ const Services = () => {
   const [datas, setDatas] = useState([]); // Ensure datas is always an array
   const [searchQuery, setSearchQuery] = useState("");
 
-  const API_URL = "https://gym-ecom.vercel.app/"; // Replace with actual API URL
-
   const getData = async () => {
     try {
-      // const resp = await fetch("http://localhost:5000/data");
-      const resp = await fetch(`${API_URL}/data`);
-      
+      const resp = await fetch("http://localhost:5000/data");
       if (!resp.ok) throw new Error("Failed to fetch data");
 
       const json = await resp.json();
