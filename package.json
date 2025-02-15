@@ -40,14 +40,14 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-  "start": "concurrently --kill-others-on-fail \"npm run react-start\" \"npm run server\"",
-  "react-start": "react-scripts start",
-  "server": "json-server --watch public/Data/db.json --port 5001",
-  "dev": "json-server --watch public/Data/db.json --port 5001",
-  "build": "react-scripts build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject"
-},
+    "start": "concurrently --kill-others-on-fail \"npm run react-start\" \"npm run server\"",
+    "react-start": "react-scripts start",
+    "server": "json-server --watch public/Data/db.json --port 5001",
+    "dev": "json-server --watch public/Data/db.json --port 5001",
+    "build": "CI=false react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -72,6 +72,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "concurrently": "^9.1.2"
   }
 }
