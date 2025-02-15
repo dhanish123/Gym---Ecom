@@ -9,11 +9,12 @@ const Services = () => {
 
   const getData = async () => {
     try {
-      const resp = await fetch("http://localhost:5000/data");
+      const resp = await fetch("http://localhost:5004/data");
       if (!resp.ok) throw new Error("Failed to fetch data");
 
       const json = await resp.json();
       console.log("Fetched Data:", json); // Debugging output
+
 
       // Ensure datas is always an array
       setDatas(Array.isArray(json) ? json : []);
