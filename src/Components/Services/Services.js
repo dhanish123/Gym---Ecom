@@ -4,7 +4,7 @@ import { BsFillArrowLeftCircleFill } from "react-icons/bs";
 import "./Services.scss";
 
 
-const API_URL = "https://gym-ecom.vercel.app/api"; 
+// const API_URL = "https://gym-ecom.vercel.app/api"; 
 
 const Services = () => {
   const [datas, setDatas] = useState([]); // Ensure datas is always an array
@@ -13,7 +13,7 @@ const Services = () => {
   const getData = async () => {
     try {
       // const resp = await fetch("http://localhost:5000/data");
-      const resp = await fetch(`${API_URL}/data`);
+      const resp = await fetch("https://gym-ecom.vercel.app/api/data");
       if (!resp.ok) throw new Error("Failed to fetch data");
 
       const json = await resp.json();
