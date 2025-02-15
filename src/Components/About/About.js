@@ -109,6 +109,7 @@ const About = () => {
         <div className="about">
           <img src={about} alt="About us" />
         </div>
+        
 
         <div className="abouttxt">
           {/* Replaced Bounce with motion.div */}

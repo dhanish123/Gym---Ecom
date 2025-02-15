@@ -1,37 +1,50 @@
-import React, { useEffect } from "react";
-import { useState } from "react";
-import "./Services.scss";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { BsFillArrowLeftCircleFill } from "react-icons/bs";
+import "./Services.scss";
+
 const Services = () => {
-  const [datas, setDatas] = useState([]);
+  const [datas, setDatas] = useState([]); // Ensure datas is always an array
   const [searchQuery, setSearchQuery] = useState("");
 
   const getData = async () => {
-    const resp = await fetch("http://localhost:4030/data");
-    const json = await resp.json();
-    setDatas(json);
+    try {
+      const resp = await fetch("http://localhost:5000/data");
+      if (!resp.ok) throw new Error("Failed to fetch data");
+
+      const json = await resp.json();
+      console.log("Fetched Data:", json); // Debugging output
+
+      // Ensure datas is always an array
+      setDatas(Array.isArray(json) ? json : []);
+    } catch (error) {
+      console.error("Error fetching data:", error);
+      setDatas([]); // Set empty array on error
+    }
   };
+
   useEffect(() => {
     getData();
   }, []);
 
-  // Filter the data based on the search query
-  const filteredData = datas.filter((item) =>
-    item.title.toLowerCase().includes(searchQuery.toLowerCase())
-  );
+  // Ensure datas is an array before filtering
+  const filteredData = Array.isArray(datas)
+    ? datas.filter((item) =>
+        item?.title?.toLowerCase().includes(searchQuery.toLowerCase())
+      )
+    : [];
+
   return (
     <div className="serviceouter" style={{ background: "black" }}>
       <Link to={"/"} className="Sb">
-        {" "}
         <BsFillArrowLeftCircleFill
           style={{ marginTop: "10px", marginLeft: "10px", fontSize: "22px" }}
         />
       </Link>
 
-      {/* <Navbar /> */}
       <div className="container">
-        <h1 className="servicehead">SHAPE YOUR BODY AND GET TO FIT </h1>
+        <h1 className="servicehead">SHAPE YOUR BODY AND GET TO FIT</h1>
+
         {/* Search box */}
         <div className="filtersearch">
           <input
@@ -41,12 +54,13 @@ const Services = () => {
             onChange={(e) => setSearchQuery(e.target.value)}
           />
         </div>
+
         <div className="row">
-          {filteredData.map((item) => {
-            return (
-              <div className="  col-3 mb-5 " key={item.id}>
+          {filteredData.length > 0 ? (
+            filteredData.map((item) => (
+              <div className="col-3 mb-5" key={item.id}>
                 <div
-                  className=" Tile card h-100"
+                  className="Tile card h-100"
                   style={{
                     background: "black",
                     color: "white",
@@ -54,27 +68,23 @@ const Services = () => {
                   }}
                 >
                   <img
-                    class="card-img-top"
+                    className="card-img-top"
                     style={{ height: "300px" }}
                     src={item.image}
-                    alt="..."
+                    alt="Service"
                   />
                   <div className="TileBottom">
-                    <div class="card-body p-4">
+                    <div className="card-body p-4">
                       <div className="text-center">
-                        <h5 class="fw-bolder" style={{ marginBottom: "16px" }}>
+                        <h5 className="fw-bolder" style={{ marginBottom: "16px" }}>
                           {item.title}
                         </h5>
                       </div>
                     </div>
 
-                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                      <div class="text-center">
-                        <Link
-                          className="btnservices"
-                          to={`/details/${item.id}`}
-                          href="#"
-                        >
+                    <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                      <div className="text-center">
+                        <Link className="btnservices" to={`/details/${item.id}`}>
                           View options
                         </Link>
                       </div>
@@ -82,15 +92,14 @@ const Services = () => {
                   </div>
                 </div>
               </div>
-            );
-          })}
+            ))
+          ) : (
+            <p style={{ color: "white", textAlign: "center" }}>No services found.</p>
+          )}
         </div>
       </div>
     </div>
   );
 };
-{
-  /* <Details /> */
-}
 
 export default Services;
