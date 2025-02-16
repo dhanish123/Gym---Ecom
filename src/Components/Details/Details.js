@@ -83,7 +83,9 @@ const Details = () => {
   };
 
   const getData = async () => {
-    const resp = await fetch(`http://localhost:5004/data/${id}`);
+    // const resp = await fetch(`http://localhost:5004/data/${id}`);
+    const resp = await fetch("https://gym-ecom.vercel.app/Data/db.json");
+
     const json = await resp.json();
     setDatas(json);
   };
