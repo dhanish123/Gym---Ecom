@@ -11,8 +11,8 @@ const Services = () => {
 
   const getData = async () => {
     try {
-      // const resp = await fetch("http://localhost:5004/data");
-      const resp = await fetch("https://gym-ecom.vercel.app/Data/db.json");
+      const resp = await fetch("http://localhost:5004/data");
+      // const resp = await fetch(API_URL);
       if (!resp.ok) throw new Error("Failed to fetch data");
 
       const json = await resp.json();
