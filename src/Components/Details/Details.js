@@ -83,7 +83,7 @@ const Details = () => {
   };
 
   const getData = async () => {
-    const resp = await fetch(`http://localhost:5004/data/${id}`);
+    const resp = await fetch(`http://localhost:5006/data/${id}`);
     const json = await resp.json();
     setDatas(json);
   };

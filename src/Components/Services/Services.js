@@ -11,7 +11,7 @@ const Services = () => {
 
   const getData = async () => {
     try {
-      const resp = await fetch("http://localhost:5004/data");
+      const resp = await fetch("http://localhost:5006/data");
       // const resp = await fetch(API_URL);
       if (!resp.ok) throw new Error("Failed to fetch data");
 
